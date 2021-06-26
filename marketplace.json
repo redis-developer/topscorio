@@ -1,14 +1,21 @@
 {
     "app_name": "Topscorio",
-    "description": "Webservice for keeping track of online multiplayer games.",
-    "hidden": true,
-    "rank": 21,
+    "description": "Webservice for keeping track of online multiplayer games using RedisJSON"
+    "rank": "142",
     "type": "Full App",
     "contributed_by": "Community",
-    "repo_url": "https://github.com/tinco/topscorio",
-    "download_url": "https://github.com/tinco/topscorio/archive/main.zip",
+    "repo_url": "https://github.com/redis-developer/topscorio",
+    "download_url": "https://github.com/redis-developer/topscorio/archive/main.zip",
     "hosted_url": "https://www.topscorio.com",
-    "quick_deploy": "false",
+    "quick_deploy": "true",
+    "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/topscorio.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/topscorio.git" 
+        }
+    ],
     "language": ["Typescript", "Node.JS", "Redis"],
     "redis_commands": ["SETEX", "GET", "JSON.GET", "JSON.SET", "SUBSCRIBE", "PUBLISH", "JSON.ARRAPPEND", "JSON.ARRTRIM"],
     "redis_features": ["caching", "pub/sub"],
@@ -19,5 +26,5 @@
     "youtube_url": "https://youtu.be/XuLk4-W99HA",
     "special_tags": ["Hackathon"],
     "verticals": ["Technology"],
-    "markdown": "https://raw.githubusercontent.com/tinco/topscorio/main/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/topscorio/main/README.md"
 }
