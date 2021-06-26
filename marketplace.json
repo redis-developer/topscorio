@@ -1,6 +1,6 @@
 {
     "app_name": "Topscorio",
-    "description": "Webservice for keeping track of online multiplayer games using RedisJSON"
+    "description": "Webservice for keeping track of online multiplayer games using RedisJSON",
     "rank": "142",
     "type": "Full App",
     "contributed_by": "Community",
