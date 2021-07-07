@@ -18,8 +18,8 @@
     ],
     "language": ["Typescript", "Node.JS", "Redis"],
     "redis_commands": ["SETEX", "GET", "JSON.GET", "JSON.SET", "SUBSCRIBE", "PUBLISH", "JSON.ARRAPPEND", "JSON.ARRTRIM"],
-    "redis_features": ["caching", "pub/sub"],
-    "redis_modules": ["RediJSON"],
+    "redis_features": ["Caching", "Pub/Sub"],
+    "redis_modules": ["RedisJSON"],
     "app_image_urls": [
         "https://i.imgur.com/j7LXeJl.png"
     ],
