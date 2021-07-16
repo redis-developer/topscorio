@@ -1,9 +1,9 @@
 Topscorio
 =========
 
-Keeps scores for gamers. Check out https://www.topscorio.com
+Keeps scores for gamers. 
 
-Running
+Installing it locally
 ====
 
 Make a `.env` file like so:
