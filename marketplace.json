@@ -7,7 +7,7 @@
     "repo_url": "https://github.com/redis-developer/topscorio",
     "download_url": "https://github.com/redis-developer/topscorio/archive/main.zip",
     "hosted_url": "https://www.topscorio.com",
-    "quick_deploy": "true",
+    "quick_deploy": "false",
     "deploy_buttons": [
         {
             "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/topscorio.git" 
