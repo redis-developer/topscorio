@@ -5,6 +5,7 @@
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/topscorio",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/topscorio/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/topscorio/archive/main.zip",
     "hosted_url": "",
     "quick_deploy": "false",
