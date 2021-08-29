@@ -1,7 +1,7 @@
 {
     "app_name": "Topscorio",
     "description": "Webservice for keeping track of online multiplayer games using RedisJSON",
-    "rank": "142",
+    "rank": 115,
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/topscorio",
