@@ -1,6 +1,6 @@
 {
     "app_name": "Topscorio",
-    "description": "Webservice for keeping track of online multiplayer games using RedisJSON",
+    "description": "Webservice for keeping track of online multiplayer games using Redis JSON",
     "rank": 115,
     "type": "Full App",
     "contributed_by": "Community",
@@ -11,16 +11,16 @@
     "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/topscorio.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/topscorio.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/topscorio.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/topscorio.git"
         }
     ],
     "language": ["Typescript", "Node.JS", "Redis"],
     "redis_commands": ["SETEX", "GET", "JSON.GET", "JSON.SET", "SUBSCRIBE", "PUBLISH", "JSON.ARRAPPEND", "JSON.ARRTRIM"],
-    "redis_features": ["Caching", "Pub/Sub"],
-    "redis_modules": ["RedisJSON"],
+    "redis_use_cases": ["Caching", "Pub/Sub"],
+    "redis_features": ["JSON"],
     "app_image_urls": [
         "https://i.imgur.com/j7LXeJl.png"
     ],
