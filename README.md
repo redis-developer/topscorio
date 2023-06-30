@@ -1,7 +1,7 @@
 Topscorio
 =========
 
-Keeps scores for gamers. 
+Keeps scores for gamers.
 
 Installing it locally
 ====
@@ -21,7 +21,7 @@ SENDGRID_API_KEY=<SENDGRID_API_KEY>
 Filling in database addresses, passwords and the sendgrid api key as needed. I have used a different database for each,
 but I don't see a reason why it couldn't all be the same database url's if you're just testing it out.
 
-Make sure that RediJSON is enabled for the databases.
+Make sure that Redis JSON is enabled for the databases.
 
 Then in one terminal run:
 
@@ -96,6 +96,6 @@ When a user creates a game, the server publishes a message on the `newest` chann
 
 In addition to that the server also does `JSON.ARRAPPEND all-games .newest {"gameInfo" : ... }` to add the game to the all games newest array, and to make sure it doesn't overflow it follows up with `JSON.arrtrim all-games .newest <begin> <end>` to shorten it back up.
 
-Once created the games are simply retrieved with `JSON.GET game-<gameid> .`. 
+Once created the games are simply retrieved with `JSON.GET game-<gameid> .`.
 
 Game logs are stored and retrieved in the same way, but instead of keeping track of a list of newest, there is only a pub/sub channel where open game lobbies are broadcasted like so: `PUBLISH open {"id": abc123, etc..}`.
